@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+  }
+  .teacher{
+    margin-top: 2500px;
+  }
+  .final{
+    background:url('https://wallpapercave.com/wp/wp3310734.jpg') ;
+   color:aliceblue;
+  font-weight: bold;
+  font-size:100px;
+}

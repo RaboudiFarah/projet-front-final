@@ -1,0 +1,177 @@
+.card {
+  margin:20px;
+    margin-left:400px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 14.5em;
+    background: #da2d2d;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .titleSpace{
+    background-image: url('https://img.freepik.com/free-vector/pastel-color-watercolor-stain-background_52683-12283.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fffcfc;
+    font-size: 100px;
+    
+    }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card .img {
+    width: 10.8em;
+    height: 10.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+  }
+  .card1 {
+    margin-bottom: 300px;
+    margin-left:40px;
+    width: 700px;
+    height:300px;
+    color: white;
+    display: grid;
+   
+    grid-template-columns: 5fr 5fr;
+   gap:8px 8px; 
+    overflow: visible;
+  
+   }
+   
+   .card1 .item {
+
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+   
+    
+   }
+   
+   .item:hover {
+    transform: scale(0.95);
+    transition: all 0.3s;
+   }
+   
+   .item svg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 7px;
+   }
+   
+   .item--1 {
+    background: #c7c7ff;
+   }
+   
+   .item--2 {
+    background: #ffd8be;
+   }
+   
+   .item--3 {
+    background: #a9ecbf;
+   }
+   
+   .item--4 {
+    background: #f3bbe1;
+   }
+   
+   .quantity {
+    font-size: 25px;
+    font-weight: 400;
+   }
+   
+   .text {
+    font-size: 80px;
+    font-family: inherit;
+    font-weight: 700;
+
+   }
+   
+   .text--1 {
+    color: rgba(149,149,255,1);
+    margin-right: 0%;
+margin: 10px;
+   }
+   
+   .text--2 {
+    color: rgba(252,161,71,1);
+    margin-right: 0%;
+margin: 10px;
+   }
+   
+   .text--3 {
+    color: rgba(66,193,110,1);
+    margin-right: 0%;
+margin: 10px;
+   }
+   
+   .text--4 {
+    color: rgba(220,91,183,1);
+    margin-right: 0%;
+margin: 10px;
+   }
+   .img3 {
+    height: 200px;
+    width: 220px;
+    margin: 10px;
+    float: left;
+    border-radius: 5px;
+    
+   }
